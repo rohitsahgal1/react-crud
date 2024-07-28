@@ -9,13 +9,13 @@ function App() {
     <>
     <div className="main">
       <h2 className="main-header">React Crud Ops</h2>
-    {/* </div>
-    <div> */}
+    
       <Routes>
       <Route path='/create' element={<Create/>} />
       <Route path='/read' element={<Read/>} />
       <Route path='/update' element={<Update/>} />
       </Routes>
+    
     </div>
      
     </>
